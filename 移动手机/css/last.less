@@ -1,0 +1,78 @@
+  @import url("reset.css");
+.box(@ver:horizontal){
+    display: -webkit-box;
+    -webkit-box-orient: @ver;
+}
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background:@bg ;
+}
+html{
+    font-size: 62.5%;
+}
+html,
+body,
+.wrap{
+    .full(100%,100%,none);
+    overflow: hidden;
+}
+.wrap{
+    .box(vertical);
+    
+    header{
+        .full(100%,30px,red);
+        .box();
+        &>div{
+            .full(40px,30px,none);
+            text-align: center;
+            line-height: 30px;
+            
+        }
+        h1{
+            -webkit-box-flex:1;
+            text-align: center;
+           
+            font-size: 18px;
+            color: #ffffff;
+            
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        margin-top: 2px;
+        .shang,img{
+                .full(100%,auto,none);
+                 -webkit-box-flex: 1;
+            }
+        .xia{
+             -webkit-box-flex: 1;
+            .full(100%,auto,none);
+            .box();
+            padding: 10px 15px 0;
+            box-sizing: border-box;
+            dl{
+                -webkit-box-flex: 1;
+                text-align: center;
+               padding: 15px;
+               box-sizing: border-box;
+            }
+        }   
+        
+    }
+    footer{
+         .full(100%,40px,red);
+         .box();
+         dl{
+             text-align: center;
+             -webkit-box-flex: 1;
+         }
+    }
+    @media screen and (min-width:320px) and (max-width:410px){
+        header{
+            background: green;
+            font-size: 18px;
+        }
+    }
+  
+}
