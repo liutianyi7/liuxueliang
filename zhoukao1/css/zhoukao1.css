@@ -1,0 +1,189 @@
+@import url(reset.css);
+.overall {
+  width: 100%;
+  height: 100%;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.overall header {
+  width: 100%;
+  height: 37.5px;
+  background: #1a1a1a;
+}
+.overall header .title {
+  width: 77px;
+  height: 37.5px;
+  background: none;
+  float: left;
+}
+.overall header .title img {
+  width: 60px;
+  height: 20px;
+  background: none;
+  margin: 8px 0 0 10px;
+}
+.overall header .title_right {
+  width: 150px;
+  height: 37.5px;
+  background: none;
+  float: right;
+  padding-top: 8px;
+  box-sizing: border-box;
+}
+.overall header .title_right img {
+  width: 18px;
+  height: auto;
+  background: none;
+  margin-left: 14px;
+}
+.overall section {
+  -webkit-box-flex: 1;
+  padding: 0 10px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+.overall section::-webkit-scrollbar {
+  width: 0;
+}
+.overall section .search {
+  width: 100%;
+  height: 25px;
+  background: none;
+  margin: 10px 0px;
+  border-radius: 25px;
+  overflow: hidden;
+  border: 1px solid #0cc009;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.overall section .search input {
+  display: block;
+  -webkit-box-flex: 1;
+  border: none;
+  text-align: center;
+  outline: none;
+}
+.overall section .search span {
+  display: block;
+  width: 40px;
+  height: 100%;
+  background: #0cc009;
+  text-align: center;
+  line-height: 25px;
+}
+.overall section nav {
+  width: 100%;
+  height: 32px;
+  background: #f5f5f5;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.overall section nav .nav_left {
+  -webkit-box-flex: 1;
+}
+.overall section nav .nav_left .nav_left_ul {
+  border-bottom: 1px solid #cacaca;
+}
+.overall section nav .nav_left .nav_left_ul .swiper-slide {
+  text-align: center;
+  line-height: 32px;
+}
+.overall section nav .nav_right dl {
+  width: 33px;
+  height: 32px;
+  background: none;
+  text-align: center;
+}
+.overall section nav .nav_right dl dt {
+  height: 15px;
+}
+.overall section nav .nav_right dl dt img {
+  width: 15px;
+  height: 15px;
+  background: none;
+}
+.overall section .main1 {
+  border-bottom: 5px solid #f0f0f0;
+}
+.overall section .main1 .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-top: 7px;
+}
+.overall section .main2 {
+  width: 100%;
+  height: 105px;
+  background: none;
+  margin-top: 12px;
+}
+.overall section .main2 img {
+  width: 20px;
+  height: auto;
+  background: none;
+}
+.overall section .main2 span {
+  font-size: 12px;
+}
+.overall section .main2 p {
+  padding-top: 11px;
+  box-sizing: border-box;
+}
+.overall section .main2 p img {
+  padding-right: 10px;
+  width: 11px;
+  height: auto;
+  background: none;
+}
+.overall section .main3 {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.overall section .main3 .main3_1 {
+  -webkit-box-flex: 1;
+  padding: 0 5px;
+}
+.overall section .main3 .main3_1 img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.overall section .main3 .main3_1 p {
+  font-size: 14px;
+}
+.overall section .main3 .main3_1 span {
+  font-size: 12px;
+}
+.overall footer {
+  width: 100%;
+  height: 41px;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.overall footer .bottom {
+  width: 100%;
+  height: 41px;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.overall footer .bottom dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+  width: 0;
+  padding-top: 3px;
+  box-sizing: border-box;
+}
+.overall footer .bottom dl dt img {
+  width: 22.5px;
+  height: 19px;
+  background: none;
+}
