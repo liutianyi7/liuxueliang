@@ -1,0 +1,182 @@
+@import "reset.css";
+@mixin full($w,$h,$bg){
+    width: $w;
+    height: $h;
+    background: $bg;
+}
+@mixin box($var:horizontal){
+    display: -webkit-box;
+    -webkit-box-orient: $var;
+}
+html,body,.div{
+    @include full(100%,100%,none);
+}
+html{
+    font-size: 62.5%;
+}
+.div{
+    @include full(100%,100%,none);
+    @include box(vertical);
+    overflow: hidden;
+    header{
+        @include full(100%,15.4rem,none);
+        position: relative;
+
+        .div1{
+            position: absolute;
+             left: 0;
+            top: 0;
+            z-index: 0;
+             @include full(100%,15.4rem,none);
+               .img1{
+            @include full(100%,15.4rem,none);
+        }
+        }
+        .div2{
+            @include full(100%,36px,none);
+            @include box(horizontal);
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 2;
+            .left{
+                @include full(30px,20px,none);
+                margin-left: 7px;
+                margin-top: 6px;
+                img{
+                   @include full(16px,16px,none); 
+                }
+                p{
+                    font-size: 8px;
+                }
+                
+            }
+            .zhong{
+               -webkit-box-flex: 1;
+               position: relative;
+               input{
+                    @include full(100%,auto,none); 
+                    margin-top: 8px;
+                    text-align: center;
+               }
+               span{
+                   position: absolute;
+                   top: 10px;
+                   left: 10px;
+                   img{
+                     @include full(12px,12px,none);  
+                   }
+               }
+            }
+            .right{
+                 @include full(30px,20px,none);
+                margin-right: 7px;
+                margin-left: 6px;
+                margin-top: 6px;
+                img{
+                   @include full(16px,16px,none); 
+                }
+                p{
+                    font-size: 8px;
+                }
+            }
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        @include box(vertical);
+        overflow-y: auto;
+       
+        .zhuti1{
+            @include full(100%,16rem,none);
+            background: #f3f3f3;
+            .zhuti1_1{
+                @include box(horizontal);
+                text-align: center;
+                dl{
+                    -webkit-box-flex: 1;
+                    margin-top: 13px;
+                    margin-bottom: 13px;
+                    img{
+                        @include full(2.8rem,2.8rem,none);
+                    }
+                }
+            }
+             .zhuti1_2{
+                @include box(horizontal);
+                text-align: center;
+                dl{
+                    -webkit-box-flex: 1;
+                    margin-top: 6px;
+                    margin-bottom: 13px;
+                    img{
+                        @include full(2.8rem,2.8rem,none);
+                    }
+                }
+            }
+            p{
+                @include full(100%,2.8rem,red);
+                line-height: 2.8rem;
+                background: #ffffff;
+                padding-left: 6px;
+                box-sizing: border-box;
+            }
+        }
+        .zhuti2{
+            @include full(100%,4rem,none);
+            @include box(horizontal);
+            position: relative;
+            h2{
+                @include full(15rem,4rem,none);
+                line-height:4rem ;
+               position: absolute;
+               left: 7px;
+                
+            }
+            p{
+                @include full(9rem,4rem,none);
+                line-height:4rem ;
+                position: absolute;
+                right: 7px;
+                img{
+                    @include full(0.8rem,auto,none);
+                }
+            }
+        }
+        .zhuti3{
+            @include full(100%,12rem,none);
+            @include box(horizontal);
+            overflow: hidden;
+            
+            dl{
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-top: 5px;
+                img{
+                     @include full(7.5rem,auto,none);
+                }
+            }
+        }
+        .zhuti4{
+             @include full(100%,3rem,none);
+             img{
+                  @include full(100%,auto,none);
+             }
+        }
+    }
+    footer{
+        @include full(100%,4.5rem,none);
+        @include box(horizontal);
+        dl{
+            -webkit-box-flex: 1;
+            text-align: center;
+            margin-top: 5px;
+            dt{
+                img{
+                @include full(1.4rem,auto,none);
+            }
+            }
+            
+        }
+    }
+}

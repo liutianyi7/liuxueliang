@@ -1,0 +1,191 @@
+@import url(reset.css);
+html, body, .div {
+  width: 100%;
+  height: 100%;
+  background: none; }
+
+html {
+  font-size: 62.5%; }
+
+.div {
+  width: 100%;
+  height: 100%;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden; }
+  .div header {
+    width: 100%;
+    height: 15.4rem;
+    background: none;
+    position: relative; }
+    .div header .div1 {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 0;
+      width: 100%;
+      height: 15.4rem;
+      background: none; }
+      .div header .div1 .img1 {
+        width: 100%;
+        height: 15.4rem;
+        background: none; }
+    .div header .div2 {
+      width: 100%;
+      height: 36px;
+      background: none;
+      display: -webkit-box;
+      -webkit-box-orient: horizontal;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 2; }
+      .div header .div2 .left {
+        width: 30px;
+        height: 20px;
+        background: none;
+        margin-left: 7px;
+        margin-top: 6px; }
+        .div header .div2 .left img {
+          width: 16px;
+          height: 16px;
+          background: none; }
+        .div header .div2 .left p {
+          font-size: 8px; }
+      .div header .div2 .zhong {
+        -webkit-box-flex: 1;
+        position: relative; }
+        .div header .div2 .zhong input {
+          width: 100%;
+          height: auto;
+          background: none;
+          margin-top: 8px;
+          text-align: center; }
+        .div header .div2 .zhong span {
+          position: absolute;
+          top: 10px;
+          left: 10px; }
+          .div header .div2 .zhong span img {
+            width: 12px;
+            height: 12px;
+            background: none; }
+      .div header .div2 .right {
+        width: 30px;
+        height: 20px;
+        background: none;
+        margin-right: 7px;
+        margin-left: 6px;
+        margin-top: 6px; }
+        .div header .div2 .right img {
+          width: 16px;
+          height: 16px;
+          background: none; }
+        .div header .div2 .right p {
+          font-size: 8px; }
+  .div section {
+    -webkit-box-flex: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow-y: auto; }
+    .div section .zhuti1 {
+      width: 100%;
+      height: 16rem;
+      background: none;
+      background: #f3f3f3; }
+      .div section .zhuti1 .zhuti1_1 {
+        display: -webkit-box;
+        -webkit-box-orient: horizontal;
+        text-align: center; }
+        .div section .zhuti1 .zhuti1_1 dl {
+          -webkit-box-flex: 1;
+          margin-top: 13px;
+          margin-bottom: 13px; }
+          .div section .zhuti1 .zhuti1_1 dl img {
+            width: 2.8rem;
+            height: 2.8rem;
+            background: none; }
+      .div section .zhuti1 .zhuti1_2 {
+        display: -webkit-box;
+        -webkit-box-orient: horizontal;
+        text-align: center; }
+        .div section .zhuti1 .zhuti1_2 dl {
+          -webkit-box-flex: 1;
+          margin-top: 6px;
+          margin-bottom: 13px; }
+          .div section .zhuti1 .zhuti1_2 dl img {
+            width: 2.8rem;
+            height: 2.8rem;
+            background: none; }
+      .div section .zhuti1 p {
+        width: 100%;
+        height: 2.8rem;
+        background: red;
+        line-height: 2.8rem;
+        background: #ffffff;
+        padding-left: 6px;
+        box-sizing: border-box; }
+    .div section .zhuti2 {
+      width: 100%;
+      height: 4rem;
+      background: none;
+      display: -webkit-box;
+      -webkit-box-orient: horizontal;
+      position: relative; }
+      .div section .zhuti2 h2 {
+        width: 15rem;
+        height: 4rem;
+        background: none;
+        line-height: 4rem;
+        position: absolute;
+        left: 7px; }
+      .div section .zhuti2 p {
+        width: 9rem;
+        height: 4rem;
+        background: none;
+        line-height: 4rem;
+        position: absolute;
+        right: 7px; }
+        .div section .zhuti2 p img {
+          width: 0.8rem;
+          height: auto;
+          background: none; }
+    .div section .zhuti3 {
+      width: 100%;
+      height: 12rem;
+      background: none;
+      display: -webkit-box;
+      -webkit-box-orient: horizontal;
+      overflow: hidden; }
+      .div section .zhuti3 dl {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px; }
+        .div section .zhuti3 dl img {
+          width: 7.5rem;
+          height: auto;
+          background: none; }
+    .div section .zhuti4 {
+      width: 100%;
+      height: 3rem;
+      background: none; }
+      .div section .zhuti4 img {
+        width: 100%;
+        height: auto;
+        background: none; }
+  .div footer {
+    width: 100%;
+    height: 4.5rem;
+    background: none;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal; }
+    .div footer dl {
+      -webkit-box-flex: 1;
+      text-align: center;
+      margin-top: 5px; }
+      .div footer dl dt img {
+        width: 1.4rem;
+        height: auto;
+        background: none; }
+
+/*# sourceMappingURL=new_file.css.map */
